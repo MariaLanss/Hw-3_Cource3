@@ -13,7 +13,6 @@ public class Student {
     private String name;
     private int age;
 
-    @JsonIgnore
     @ManyToOne()
     @JoinColumn(name = "faculty_id")
     private Faculty faculty;
